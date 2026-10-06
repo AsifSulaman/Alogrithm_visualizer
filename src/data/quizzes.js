@@ -1,0 +1,8 @@
+export const QUIZ = {
+  'bubble-sort': { q: 'After the first full pass of Bubble Sort, which value is guaranteed to be in its final position?', options: ['The smallest value', 'The largest value', 'The middle value'], answer: 1, why: 'Every comparison pushes the larger value to the right, so the maximum ends up last.' },
+  'selection-sort': { q: 'For n values, Selection Sort makes at most how many swaps?', options: ['n²', 'log n', 'n − 1'], answer: 2, why: 'It makes one swap per pass and there are n − 1 passes. It still does O(n²) comparisons.' },
+  'insertion-sort': { q: 'How many swaps does Insertion Sort make on an already sorted array?', options: ['n', 'None — it only compares', 'n²'], answer: 1, why: 'Each value is compared with its left neighbour, found in place, and left alone. That is why the best case is O(n). Try the "Nearly sorted" button!' },
+  'binary-search': { q: 'A sorted array has 1,000 values. About how many middle checks does Binary Search need at most?', options: ['About 500', 'About 100', 'About 10'], answer: 2, why: 'Each check halves the range: 1000 → 500 → 250 → … → 1 takes about log₂(1000) ≈ 10 halvings.' },
+  bfs: { q: 'Which data structure does BFS use to decide what to visit next?', options: ['Stack', 'Queue', 'Sorted array'], answer: 1, why: 'A queue is first in, first out, so nodes discovered earlier (closer to the start) are explored first.' },
+  dfs: { q: 'When DFS reaches a node with no unvisited neighbours, what does it do?', options: ['Stops completely', 'Backtracks to the previous node', 'Restarts from the start node'], answer: 1, why: 'The recursive call returns, which pops the call stack and resumes at the previous node.' },
+};
