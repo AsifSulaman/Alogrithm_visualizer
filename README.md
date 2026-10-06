@@ -2,7 +2,7 @@
 
 An interactive visualizer that shows how common algorithms work, one step at a time. I built it to understand the algorithms better by turning their logic into something I can watch.
 
-**Live demo:** https://AsifSulaman.github.io/algorithm-lab/
+**Live demo:** https://asifsulaman.github.io/Alogrithm_visualizer/
 
 ## Algorithms
 
@@ -28,7 +28,7 @@ Each algorithm page has an explanation, a step-by-step visualization, pseudocode
 You need [Node.js](https://nodejs.org) (LTS).
 
 ```bash
-git clone https://github.com/AsifSulaman/algorithm-lab.git
+git clone https://asifsulaman.github.io/Alogrithm_visualizer/
 cd algorithm-lab
 npm install
 npm run dev
